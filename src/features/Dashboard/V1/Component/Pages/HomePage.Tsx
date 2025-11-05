@@ -1,7 +1,5 @@
 import React from "react";
 
-
-
 const features = [
   { title: "Custom Models", desc: "Train and deploy custom AI models lightning fast." },
   { title: "Model Supports", desc: "Supports GPT, Llama, Stability and more AI engines." },
