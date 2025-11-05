@@ -4,15 +4,11 @@ import Sidebar from "../features/sidebar/Sidebar";
 
 const App = () => {
   return (
-    <div className="flex h-screen bg-[#0d0d0d]text-white caret-amber-400">
-      {/* Sidebar */}
-
+    <div className="flex h-screen bg-[#0B0B0B]text-white caret-amber-400">
       <Sidebar />
 
-      {/* Main chat section */}
       <div className="flex flex-col flex-1">
         <Header />
-        {/* <Chat /> */}
       </div>
 
     </div>
